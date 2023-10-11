@@ -19,6 +19,7 @@ public class Login {
 		
 		
 		driver.get("https://opensource-demo.orangehrmlive.com");
+		driver.getTitle();
 		driver.manage().window().maximize();//Chaining of methods
 		Thread.sleep(1000);
 	
